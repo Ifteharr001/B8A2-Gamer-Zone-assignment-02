@@ -1,0 +1,23 @@
+/* small or mobile responsive */
+
+@media screen and (max-width: 576px) {
+    .manu-container{
+        flex-direction: column;
+    }
+    .logo-items{
+        flex-direction: column;
+    }
+    .manu-items{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .manu-items li{
+        margin-top: 20px;
+    } 
+    .manu-btn {
+        padding: 12px 16px 50px 16px;
+    }
+}
+
+
+/* medium or tablet responsive */
