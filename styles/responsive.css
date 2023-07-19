@@ -56,6 +56,16 @@
         text-align: center;
         width: 100%;
     }
+    .grid-container .card-contrainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-img{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .video-title h1{
+        line-height: 50px;
+    }
 }
 
 
