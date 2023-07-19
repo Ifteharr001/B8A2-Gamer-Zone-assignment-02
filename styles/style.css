@@ -1,5 +1,13 @@
+/* Google Fonts Work sans */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,800&display=swap');
 
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 /* Start Header CSS */
+
 
 .manu-section-container{
     width: 100%;
@@ -36,6 +44,7 @@
     width: 50%;
     align-items: center;
     justify-content: space-evenly;
+    gap: 10px;
 }
 .manu-items li{
     list-style: none;
@@ -47,9 +56,158 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-.manu-btn{
+.manu-btn li a{
+    display: flex;
+}
+.icon i{
+    padding-left: 15px;
+}
+.youtube{
+    color: #F61C0D;
+    font-size: 25px;
+}
+.tiktok{
+    color: #000;
+    font-size: 25px;
+}
+.manu-btn li{
     padding: 18px 25px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
 
+
+/* Start Banner CSS */
+
+.banner-container{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+}
+.banner-text{
+    width: 50%;
+    margin-top: 80px;
+} 
+.banner-text h2{
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-text .banner-title{
+    margin: 0;
+    padding: 0;
+    font-size: 4.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.banner-text p{
+    color: #534C64;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.banner-icons{
+    margin-right: 10px;
+}
+
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 511px;
+    height: 546px;
+}
+
+.signin-btn{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    gap: 10px;
+    margin-right: 15px;
+    padding: 18px 35px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.go-btn{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
+/* Start Main Section CSS */
+
+.gamer-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+.gamer-container{
+    display: flex;
+}
+.gamer-image img{
+    width: 668px;
+    height: 389px;
+    margin-top: 50px;
+    margin-left: -75px;
+}
+.gamer-contant{
+    text-align: right;
+    width: 70%;
+}
+.gamer-contant h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-contant p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.gamer-btn{
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 18px 35px;
+    align-items: flex-start;
+    border: none;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.gamer-sub-title .secount-title{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.gamer-sub-title .first-title{
+    color: #534C64;
+    font-size: 1.4rem;
+    font-weight: 500;
+}

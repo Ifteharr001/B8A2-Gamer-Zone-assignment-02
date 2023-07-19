@@ -1,21 +1,60 @@
 /* small or mobile responsive */
 
 @media screen and (max-width: 576px) {
+    .manu-section-container{
+        margin: 50px 0;
+    }
     .manu-container{
         flex-direction: column;
     }
     .logo-items{
         flex-direction: column;
+        width: 100%;
     }
     .manu-items{
         flex-direction: column;
         margin-top: 10px;
+        width: 100%;
     }
     .manu-items li{
-        margin-top: 20px;
+        margin-top: 10px;
     } 
-    .manu-btn {
-        padding: 12px 16px 50px 16px;
+
+    /* Start Banner Section Responsive */
+
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-container{
+        margin: 0 auto;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-btn{
+        display: flex;
+    }
+    .signin-btn{
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+    .go-btn{
+        font-size: 15px;
+        padding: 12px 20px;
+    }
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-image img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .gamer-contant{
+        text-align: center;
+        width: 100%;
     }
 }
 
