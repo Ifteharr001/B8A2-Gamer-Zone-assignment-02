@@ -82,6 +82,7 @@
     max-width: 1000px;
     display: flex;
     margin: 0 auto;
+  
 }
 .banner-text{
     width: 50%;
@@ -258,4 +259,92 @@
     font-size: 1rem;
     font-weight: 500;
     line-height: 20px;
+}
+
+/* animation style */
+
+.animation-container{
+    max-width: 1000px;
+    margin: 60px auto 60px;
+    display: flex;
+    text-align: right;
+}
+.animation-text h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.animation-text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.animation-text p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.animation-text{
+    width: 50%;
+    margin-right: 150px;
+    margin-top: 120px;
+}
+.animation-image{
+    width: 50%;
+}
+.animation-image .main-img{
+    width: 534px;
+    height: 550px;
+    
+}
+.animation-image .sub-img{
+    right: 300px;
+    bottom: 200px;
+    position: relative;
+}
+
+/* animation2 style  */
+
+.animation-container2{
+    max-width: 1000px;
+    margin: 60px auto 60px;
+    display: flex;
+    text-align: left;
+}
+.animation-text2 h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.animation-text-color2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.animation-text2 p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.animation-text2{
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.animation-image2{
+    width: 50%;
+}
+.animation-image2 .main-img2{
+    width: 534px;
+    height: 550px;
+    
+}
+.animation-image2 .sub-img2{
+    left: 300px;
+    bottom: 200px;
+    position: relative;
 }

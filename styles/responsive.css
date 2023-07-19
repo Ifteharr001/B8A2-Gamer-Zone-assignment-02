@@ -27,6 +27,7 @@
     }
     .banner-text, .banner-container{
         margin: 0 auto;
+        text-align: center;
     }
     .banner-img{
         width: 100%;
@@ -36,6 +37,7 @@
     }
     .banner-btn{
         display: flex;
+        justify-content: center;
     }
     .signin-btn{
         font-size: 15px;
@@ -57,14 +59,60 @@
         width: 100%;
     }
     .grid-container .card-contrainer{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     .card-img{
         text-align: center;
         margin-bottom: 30px;
     }
+    .card-img p{
+        margin: 20px auto;
+    }
     .video-title h1{
         line-height: 50px;
+    }
+    
+
+    /* animation responsive style */
+    .animation-container{
+        flex-direction: column;
+    }
+    .animation-image .main-img{
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+    }
+    .animation-text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .animation-image .sub-img{
+        padding-left: 200px;
+    }
+    
+    .animation-image{
+        width: 100%;
+    }
+    /* animation2 responsive style */
+
+    .animation-container2{
+        flex-direction: column;
+    }
+    .animation-image2 .main-img2{
+        width: 80%;
+        height: 100%;
+        padding: 20px;
+    }
+    .animation-text2{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .animation-image2 .sub-img2 {
+        left: 220px;
+    }
+    
+    .animation-image2{
+        width: 100%;
     }
 }
 
