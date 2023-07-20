@@ -20,47 +20,80 @@
         margin-top: 10px;
     } 
 
-    
-
+    .banner-text h2{
+        font-size: 30px;
+    }
+    .banner-text p{
+        font-size: 20px;
+        text-align: left;
+    }
+    .banner-text .banner-title{
+        font-size: 50px;
+        text-align: center;
+    }
+    .banner-text .banner-p{
+        padding-left: 25px;
+    }
     .banner-container{
         flex-direction: column;
     }
     .banner-text, .banner-container{
         margin: 0 auto;
+        width: 100%;
         text-align: center;
     }
     .banner-img{
         width: 100%;
     }
     .banner-img img{
-        width: 100%;
+        width: 380px;
+        height: 350px;
+        margin-top: 40px;
     }
     .banner-btn{
         display: flex;
         justify-content: center;
     }
     .signin-btn{
-        font-size: 15px;
-        padding: 12px 20px;
+        font-size: 12px;
+        padding: 12px 16px;
     }
     .go-btn{
-        font-size: 15px;
-        padding: 12px 20px;
+        font-size: 12px;
+        padding: 12px 16px;
     }
+
+    /* Gamer Section Responsive Here */
+
     .gamer-container{
         flex-direction: column;
     }
+    .gamer-image{
+        text-align: center;
+        padding-left: 50px;
+    }
     .gamer-image img{
-        width: 100%;
-        margin-left: 0;
+        height: 300px;
+        width: 400px;
     }
     .gamer-contant{
         text-align: center;
         width: 100%;
     }
+    .gamer-contant h1{
+        font-size: 40px;
+    }
     .grid-container .card-contrainer{
         grid-template-columns: repeat(1, 1fr);
     }
+    .gamer-button .gamer-btn{
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+
+
+    /* Card Section Responsive */
+
     .card-img{
         text-align: center;
         margin-bottom: 30px;
@@ -72,21 +105,26 @@
         line-height: 50px;
     }
     
+    /* Animation Section Responsive */
 
     .animation-container{
         flex-direction: column;
     }
     .animation-image .main-img{
-        width: 80%;
-        height: 100%;
         padding: 20px;
+        width: 300px;
+        height: 300px;
     }
     .animation-text{
         margin: 0 auto;
         text-align: center;
+        width: 100%;
     }
     .animation-image .sub-img{
-        padding-left: 200px;
+        padding-left: 250px;
+        padding-top: 50px;
+        height: 150px;
+        width: 150px;
     }
     
     .animation-image{
@@ -98,30 +136,51 @@
         flex-direction: column;
     }
     .animation-image2 .main-img2{
-        width: 80%;
-        height: 100%;
-        padding: 20px;
+        width: 300px;
+        height: 300px;
     }
     .animation-text2{
         margin-top: 0px;
         text-align: center;
+        width: 100%;
+        margin-left: 0px;
     }
     .animation-image2 .sub-img2 {
-        left: 220px;
+        left: -70px;
+        height: 100px;
+        width: 100px;
+        bottom: -20px;
     }
-    
-    .animation-image2{
+     .animation-image2{
         width: 100%;
     }
+
+        /* Start Reviwe Section */
+
     .reviwe-section-container{
         grid-template-columns: 1fr;
     }
     .footer-manu{
         grid-template-columns: repeat(3, 1fr);
         row-gap: 20px;
+        padding: 0 30px 0 30px;
     }
     .footer-icon{
         grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+
+    .footer-icon-container{
+        width: 0px;
+        margin-left: 100px;
+        margin-right: 0px;
+    }
+    .footer-icon-container i{
+        margin-right: 50px;
+        text-align: center;
+    }
+    .footer-teams-manu{
+        grid-template-columns: repeat(2, 1fr);
         row-gap: 20px;
     }
 }

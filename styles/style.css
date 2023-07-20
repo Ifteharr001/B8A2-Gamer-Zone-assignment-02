@@ -160,6 +160,9 @@
 .gamer-container{
     display: flex;
 }
+.gamer-image{
+    text-align: center;
+}
 .gamer-image img{
     width: 668px;
     height: 389px;
