@@ -82,7 +82,6 @@
     max-width: 1000px;
     display: flex;
     margin: 0 auto;
-  
 }
 .banner-text{
     width: 50%;
@@ -104,7 +103,6 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 .banner-text p{
     color: #534C64;
@@ -216,7 +214,7 @@
 }
 
 
-/* start vedeo card section CSS */
+/* start video card section CSS */
 
 .video-card-section{
     margin-top: 80px;
@@ -353,6 +351,7 @@
 }
 
 /* start review button section CSS */
+
 .reviwe-section-container{
     max-width: 1000px;
     margin: 0 auto;
@@ -360,9 +359,6 @@
 }
 .text-container{
     align-items: center;
-}
-.text-btn{
-
 }
 
 .review-btn button{
@@ -447,10 +443,6 @@
     font-weight: 600;
     line-height: normal;
 }
-
-.footer-icon-container{
-
-}
 .footer-icon{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -505,3 +497,6 @@
     font-weight: 500;
     line-height: normal;
 }
+
+
+/* End Footer Section CSS */

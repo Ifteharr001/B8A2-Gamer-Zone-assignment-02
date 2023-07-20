@@ -1,6 +1,6 @@
-/* small or mobile responsive */
+/* small or mobile device responsive */
 
- @media screen and (max-width: 576px) {
+ @media screen and (max-width: 425px) {
     .manu-section-container{
         margin: 50px 0;
     }
@@ -186,4 +186,26 @@
 }
 
 
+
+
+/* medium or tablet device responsive */
+
+@media screen and (min-width: 425px) and (max-width: 992px) {
+    .manu-section-container{
+
+    }
+    .manu-container{
+        margin: 0 auto;
+    }
+    .logo-items{
+        width: 40%;
+    }
+    .manu-items{
+        width: 60%;
+    }
+    .manu-items li a{
+       font-size: 16px;
+    } 
+
+}
 
