@@ -1,6 +1,6 @@
 /* small or mobile responsive */
 
-@media screen and (max-width: 576px) {
+ @media screen and (max-width: 576px) {
     .manu-section-container{
         margin: 50px 0;
     }
@@ -20,7 +20,7 @@
         margin-top: 10px;
     } 
 
-    /* Start Banner Section Responsive */
+    
 
     .banner-container{
         flex-direction: column;
@@ -73,7 +73,6 @@
     }
     
 
-    /* animation responsive style */
     .animation-container{
         flex-direction: column;
     }
@@ -93,7 +92,7 @@
     .animation-image{
         width: 100%;
     }
-    /* animation2 responsive style */
+   
 
     .animation-container2{
         flex-direction: column;
@@ -114,7 +113,18 @@
     .animation-image2{
         width: 100%;
     }
+    .reviwe-section-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-manu{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+    .footer-icon{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
 }
 
 
-/* medium or tablet responsive */
+
